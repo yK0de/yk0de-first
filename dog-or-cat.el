@@ -1,0 +1,7 @@
+(defun dog-or-cat? (msg)
+  (if (string= msg "bow!")
+      (message "It's a dog!")
+   (if (string= msg "myau!")
+       (message "It's a cat!")
+      (message "It isn't dog or cat!"))))  
+(dog-or-cat "bow!")
